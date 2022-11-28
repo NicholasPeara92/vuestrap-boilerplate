@@ -1,18 +1,19 @@
 <script>
-import PageTitle from './components/PageTitle.vue';
+import PageTitle from "./components/PageTitle.vue";
 
 export default {
   components: {
-    PageTitle
-  }
-}
+    PageTitle,
+  },
+};
 </script>
 
 <template>
   <div>
-    <PageTitle/>
+    <PageTitle />
   </div>
 </template>
 
 <style scoped>
+@import "./style/global.scss";
 </style>
